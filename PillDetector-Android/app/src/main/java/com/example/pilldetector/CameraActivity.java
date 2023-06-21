@@ -57,6 +57,8 @@ import com.androidnetworking.interfaces.UploadProgressListener;
 
 import static android.widget.Toast.LENGTH_SHORT;
 
+import com.example.pilldetector.R;
+
 
 public class CameraActivity extends AppCompatActivity {
 

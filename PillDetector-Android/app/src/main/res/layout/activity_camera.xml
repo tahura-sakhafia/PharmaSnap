@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#2764a5"
+    android:background="#D51639"
     tools:context=".CameraActivity">
 
     <ImageView
@@ -32,7 +32,8 @@
         android:layout_marginBottom="24dp"
         android:background="@android:color/white"
         android:text="Capture Image"
-        android:textColor="#2764a5"
+        android:textSize="20dp"
+        android:textColor="#D51639"
         android:visibility="visible"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -54,13 +55,13 @@
 
         <Button
             android:id="@+id/checkPill"
-            android:layout_width="wrap_content"
+            android:layout_width="188dp"
             android:layout_height="70dp"
             android:layout_marginRight="8dp"
             android:layout_weight="1"
             android:background="@android:color/white"
             android:text="Check Pill"
-            android:textColor="#2764a5"
+            android:textColor="#D51639"
             android:visibility="visible"
             tools:layout_editor_absoluteX="138dp"
             tools:layout_editor_absoluteY="645dp" />
@@ -73,7 +74,7 @@
             android:layout_weight="1"
             android:background="@android:color/white"
             android:text="Re-Capture"
-            android:textColor="#2764a5"
+            android:textColor="#D51639"
             android:visibility="visible"
             tools:layout_editor_absoluteX="295dp"
             tools:layout_editor_absoluteY="645dp" />
